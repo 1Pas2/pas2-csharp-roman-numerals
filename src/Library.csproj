@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Version>0.1.0</Version>
+    <AssemblyName>Pas2.RomanNumerals</AssemblyName>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Authors>1Pas2</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>Pas2.RomanNumerals</PackageId>
+  </PropertyGroup>
+  <ItemGroup><None Include="../README.md" Pack="true" PackagePath="/" /><None Include="../LICENSE" Pack="true" PackagePath="/" /></ItemGroup>
+</Project>
